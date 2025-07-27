@@ -1,0 +1,53 @@
+.home-container {
+  text-align: center;
+  margin-top: 100px;
+  padding: 20px;
+  background-color: #f7f9fb;
+  min-height: 100vh;
+}
+
+.home-title {
+  font-size: 3rem;
+  color: #2c3e50;
+  margin-bottom: 20px;
+}
+
+.home-description {
+  font-size: 1.2rem;
+  color: #555;
+  max-width: 600px;
+  margin: 0 auto 40px;
+}
+
+.home-buttons {
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+}
+
+.home-button {
+  padding: 12px 24px;
+  font-size: 16px;
+  border-radius: 6px;
+  border: none;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.home-button.register {
+  background-color: #4caf50;
+  color: white;
+}
+
+.home-button.register:hover {
+  background-color: #388e3c;
+}
+
+.home-button.login {
+  background-color: #2196f3;
+  color: white;
+}
+
+.home-button.login:hover {
+  background-color: #1976d2;
+}
